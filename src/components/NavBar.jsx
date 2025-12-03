@@ -1,9 +1,10 @@
 import React from "react";
 
+
 function Navbar() {
     return (
        <nav className="navbar navbar-expand-lg navbar-dark custom-navbar w-100">
-  <div className="container-fluid d-flex align-items-center">
+    <div className="container-fluid d-flex align-items-center">
     
     {/* Logo à gauche */}
     <a className="navbar-brand" href="/">
@@ -13,23 +14,24 @@ function Navbar() {
     {/* Liens centrés */}
     <ul className="navbar-nav d-flex flex-row mx-auto gap-3">
       <li className="nav-item">
-        <a className="nav-link nav-btn" href="/">Accueil</a>
+      <a className="nav-link nav-btn" onClick={() => window.location.href = '/'}>Accueil</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link nav-btn" href="/hebergements">Hébergements</a>
+      <a className="nav-link nav-btn" onClick={() => window.location.href = '/hebergements'}>Hébergements</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link nav-btn" href="/contact">Contact</a>
+      <a className="nav-link nav-btn" onClick={() => window.location.href = '/contact'}>Contact</a>
       </li>
     </ul>
 
-    {/* Bouton Connexion tout à droite */}
-    <div className="d-flex">
-      <a className="nav-btn-login " href="/login">Connexion</a>
+    {/* Boutons Inscription et Connexion tout à droite */}
+    <div className="d-flex gap-2">
+      <a className="nav-btn-login" onClick={() => window.location.href = '/register'}>Inscription</a>
+      <a className="nav-btn-login" onClick={() => window.location.href = '/login'}>Connexion</a>
     </div>
 
-  </div>
-</nav>
+    </div>
+  </nav>
 
     );
 }
