@@ -21,7 +21,7 @@ function Login() {
                 <button type="submit">Se connecter</button>
             </form>
             <div className="register-link">
-                <a href="/register">Pas encore inscrit ?</a>
+                <a href="/register">Pas encore de compte ? Inscrivez-vous ici.</a>
             </div>
         </div>
         <Footer />
