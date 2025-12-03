@@ -1,0 +1,143 @@
+:root {
+  /* Couleurs principales */
+  --color-forest-green: #2E8B57;
+  --color-sand-beige: #F5F5DC;
+  --color-sky-blue: #87CEEB;
+
+  /* Couleurs secondaires */
+  --color-white: #FFFFFF;
+  --color-light-gray: #D3D3D3;
+  --color-dark: #1f1f1f;
+
+  /* Typographies */
+  --font-title: "Montserrat", sans-serif;
+  --font-text: "Open Sans", sans-serif;
+
+  /* Tailles responsives */
+  --size-title: clamp(24px, 5vw, 32px);
+  --size-subtitle: clamp(20px, 4vw, 26px);
+  --size-text: clamp(14px, 2.5vw, 16px);
+
+  /* Boutons */
+  --button-border-radius: 12px;
+  --button-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  /* Espacements */
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 40px;
+  --spacing-xl: 60px;
+}
+/* Permet d'avoir un footer en bas même si le contenu est court */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#root {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* pousse le footer vers le bas */
+}
+
+/* Style du formulaire d'inscription */
+.register-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--spacing-lg);
+    background-color: var(--color-sand-beige);
+}
+
+.register-container h2 {
+    font-family: var(--font-title);
+    font-size: var(--size-title);
+    color: var(--color-forest-green);
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+    width: 100%;
+}
+
+.register-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-md);
+    width: 100%;
+    max-width: 100%;
+    background-color: var(--color-white);
+    padding: var(--spacing-lg);
+    border-radius: var(--button-border-radius);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+}
+
+.form-group label {
+    font-family: var(--font-text);
+    font-size: var(--size-text);
+    color: var(--color-dark);
+    font-weight: 600;
+}
+
+.form-group input {
+    padding: var(--spacing-sm);
+    font-family: var(--font-text);
+    font-size: var(--size-text);
+    border: 2px solid var(--color-light-gray);
+    border-radius: var(--button-border-radius);
+    transition: var(--button-transition);
+    outline: none;
+}
+
+.form-group input:focus {
+    border-color: var(--color-forest-green);
+    box-shadow: 0 0 0 3px rgba(46, 139, 87, 0.1);
+}
+
+.register-form button[type="submit"] {
+    grid-column: 1 / -1;
+    padding: var(--spacing-sm) var(--spacing-lg);
+    font-family: var(--font-title);
+    font-size: var(--size-text);
+    font-weight: 600;
+    background-color: var(--color-forest-green);
+    color: var(--color-white);
+    border: none;
+    border-radius: var(--button-border-radius);
+    cursor: pointer;
+    transition: var(--button-transition);
+    margin-top: var(--spacing-sm);
+}
+
+.register-form button[type="submit"]:hover {
+    background-color: #236b44;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(46, 139, 87, 0.3);
+}
+
+.register-form button[type="submit"]:active {
+    transform: translateY(0);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .register-container {
+        padding: var(--spacing-md);
+    }
+    
+    .register-form {
+        grid-template-columns: 1fr;
+        padding: var(--spacing-md);
+    }
+}
