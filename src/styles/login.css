@@ -29,6 +29,22 @@
   --spacing-lg: 40px;
   --spacing-xl: 60px;
 }
+/* Permet d'avoir un footer en bas même si le contenu est court */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#root {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* pousse le footer vers le bas */
+}
+
 
 
 
@@ -76,4 +92,44 @@
 }
 .login-container button:hover {
     background-color: #0056b3;
+}
+
+/* Footer Styles */
+.footer {
+    background: #f5f5f5;
+    padding: 40px 20px;
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-column h3 {
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-logo {
+    width: 120px;
+}
+
+.social-icons svg,
+.payment-icons svg {
+    margin-right: 10px;
+    cursor: pointer;
 }
