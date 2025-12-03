@@ -2,6 +2,13 @@
 
 Interface front-end pour le projet **Camping-premium**.
 
+-------------------------------------------------
+
+Lien de la maquette crée sur FIGMA
+https://www.figma.com/design/oYtlY4fbdvP4A5IKfupWPP/Camping?node-id=0-1&p=f&t=KtJLnKQWSd4TXOVa-0 
+
+-------------------------------------------------
+
 ## Prérequis
 
 - Node.js 18+  
