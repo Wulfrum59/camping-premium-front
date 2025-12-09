@@ -1,5 +1,6 @@
 import { useState } from "react"; 
 import NavBar from '../components/NavBar.jsx';
+import "../styles/contact.css";
 import Footer from "../components/footer";
 
 export default function ContactForm() {
@@ -83,8 +84,6 @@ export default function ContactForm() {
     <Footer />
   </>
 );
-
-
 }
 
 export { ContactForm };
