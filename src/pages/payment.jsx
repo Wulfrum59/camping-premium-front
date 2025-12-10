@@ -11,15 +11,15 @@ export default function Payment() {
     cvc: "",
   });
 
-  const [isSubmitting, setIsSubmitting] = useState(false); // Indique si le formulaire est en cours de soumission
-  const [success, setSuccess] = useState(false); // Indique si le paiement a été effectué avec succès
-  const [price, setPrice] = useState(0); // Prix à payer
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [success, setSuccess] = useState(false);
+  const [price, setPrice] = useState(0);
 
   // Récupération du prix dynamique depuis l’URL
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search); 
-    const amount = params.get("price"); 
-    if (amount) setPrice(Number(amount)); 
+    const params = new URLSearchParams(window.location.search);
+    const amount = params.get("price");
+    if (amount) setPrice(Number(amount));
   }, []);
 
   const handleChange = (e) => {
