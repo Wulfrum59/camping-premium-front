@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ body {
+    background: #f7f7f7;
+    color: #222;
+    
+}
+
+.formulaire {
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    padding: 25px;
+    margin-bottom: 10px;
+    display: block;
+
+    
+
+}
+

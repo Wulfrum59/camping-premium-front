@@ -1,5 +1,7 @@
 import { useState } from "react"; 
 import NavBar from '../components/NavBar.jsx';
+import Footer from '../components/footer.jsx';
+import "../styles/contact.css";
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -22,7 +24,7 @@ export default function ContactForm() {
     <>
     <NavBar />
     
-    <div>
+    <div className="formulaire">
       <h1>Contactez-nous</h1>
 
       <form onSubmit={handleSubmit}>
@@ -77,6 +79,7 @@ export default function ContactForm() {
         <button type="submit">Envoyer</button>
       </form>
     </div>
+    <Footer />
     </>
   );
 }
