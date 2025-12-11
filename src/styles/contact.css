@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ body {
+    background: #f7f7f7;
+    color: #222;
+
+}
+
+
+.formulaire {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+
+.formulaire h1 {
+  margin-bottom: 30px;
+}
+
+
+.formulaire form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 320px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+.formulaire form div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+.formulaire input,
+.formulaire textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+
+.formulaire button {
+  padding: 12px;
+  background-color: #247a4a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.formulaire button:hover {
+  background-color: #6bb8d8;
+}
+
+
+.coordonnees {
+  margin-top: 60px;
+  width: 80%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.coordonnees h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.coordonnees hr {
+  border: none;
+  border-top: 1px solid #000;
+  margin-bottom: 30px;
+}
+
+
+.coord-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+
+.coord-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  width: 45%;
+  text-align: left;
+}
+
+
+.icon {
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.coord-item h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.coord-item p {
+  margin: 3px 0;
+}
