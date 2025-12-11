@@ -133,3 +133,21 @@ main {
     margin-right: 10px;
     cursor: pointer;
 }
+.login-form .btn-primary {
+    background-color: var(--color-forest-green);
+    color: var(--color-white);
+    padding: 10px 20px;
+    border: none;
+    border-radius: var(--button-border-radius);
+    font-family: var(--font-text);
+    font-size: var(--size-text);
+    cursor: pointer;
+    transition: var(--button-transition);
+}
+
+.login-form .btn-primary:hover {
+    background-color: #276749;
+}
+.login-form .btn-primary:active {
+    transform: scale(0.98);
+}
