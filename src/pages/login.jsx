@@ -18,7 +18,7 @@ function Login() {
                     <label htmlFor="password">Mot de passe</label>
                     <input type="password" id="password" name="password" required />
                 </div>
-                <button type="submit">Se connecter</button>
+                <button type="submit" className="btn-primary">Se connecter</button>
             </form>
             <div className="register-link">
                 <a href="/register">Pas encore de compte ? Inscrivez-vous ici.</a>
