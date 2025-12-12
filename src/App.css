@@ -159,7 +159,7 @@ body {
 
 /* NAVBAR */
 .custom-navbar {
-  background-color: var(--color-forest-green);
+  background-color: rgba(46, 139, 87, 0.95);
   backdrop-filter: blur(10px);
   padding: 12px 0;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);

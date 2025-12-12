@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "../styles/register.css";
 import NavBar from "../components/NavBar";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 
 function Register() {
   const [formData, setFormData] = useState({
