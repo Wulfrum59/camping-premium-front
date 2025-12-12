@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import NavBar from "../components/NavBar";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 import "../styles/dashboardPremium.css";
 
 function DashboardPremium() {
