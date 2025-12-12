@@ -175,6 +175,7 @@ body {
   border-radius: 8px;
   transition: var(--button-transition);
   font-size: clamp(14px, 2vw, 16px);
+  cursor: pointer;
 }
 
 .nav-btn:hover {
@@ -191,6 +192,7 @@ body {
   border-radius: 10px;
   font-weight: bold;
   transition: var(--button-transition);
+  cursor: pointer;
 }
 
 .nav-btn-login:hover {
