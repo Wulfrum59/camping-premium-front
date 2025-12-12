@@ -31,9 +31,11 @@ function MobilhomeReservation() {
                 </div>
 
                 <article className="logement-droite">
-                    <h2>Tente de camping</h2>
+                    <h2>Mobil-Home</h2>
                     <p>
-                        Plongez dans le confort et la praticité de nos mobilhomes, conçus pour offrir un séjour agréable et relaxant en pleine nature. Chaque mobilhome est entièrement équipé pour que vous n’ayez à vous soucier de rien : chambres confortables, cuisine fonctionnelle, espace salon lumineux et terrasse privative pour profiter du plein air. Idéal pour les familles, les couples ou les amis, nos mobilhomes combinent intimité et convivialité, tout en vous permettant de rester proches des activités du camping et de la beauté naturelle environnante. Installez-vous, détendez-vous et laissez-vous séduire par le charme d’un hébergement qui allie confort moderne et atmosphère authentique. Que vous passiez une nuit ou une semaine, chaque instant dans nos mobilhomes est une invitation à la détente, au partage et à la découverte.
+                        Découvrez le confort unique de nos mobilhomes, pensés pour vous offrir un séjour à la fois pratique, chaleureux et relaxant au cœur de la nature. Chaque mobilhome est soigneusement aménagé pour répondre à tous vos besoins : des chambres confortables avec des lits douillets pour des nuits reposantes, une cuisine entièrement équipée pour préparer vos repas comme à la maison, un espace salon lumineux où vous pourrez partager des moments conviviaux et une terrasse privative qui vous permettra de profiter pleinement du grand air et du paysage environnant.
+                        Idéal pour les familles avec enfants, les couples en quête de tranquillité ou les groupes d’amis désireux de passer du temps ensemble, nos mobilhomes combinent intimité et convivialité. Vous pourrez facilement accéder à toutes les activités du camping, découvrir les sentiers naturels, vous détendre au bord de l’eau ou simplement profiter du calme et de la sérénité des lieux.
+                        Nos mobilhomes allient confort moderne et atmosphère authentique, créant un équilibre parfait entre praticité et charme. Installez-vous, respirez profondément, laissez le chant des oiseaux et le souffle du vent vous accompagner et savourez chaque instant. Qu’il s’agisse d’un week-end ou d’un séjour prolongé, chaque moment dans nos mobilhomes devient une expérience unique : petits-déjeuners en terrasse, après-midis de détente avec un livre, soirées conviviales autour d’un repas ou moments de repos bien mérités après une journée d’aventure.
                     </p>
 
                     <button className="btn-reserver">Réserver</button>

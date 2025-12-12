@@ -31,11 +31,11 @@ function AppartementReservation() {
                 </div>
 
                 <article className="logement-droite">
-                    <h2>Tente de camping</h2>
+                    <h2>Studio</h2>
                     <p>
-                        Plongez au cœur de la nature en séjournant dans nos tentes de camping confortables et accueillantes. Idéales pour vivre une expérience authentique en plein air, elles offrent tout le nécessaire pour profiter d’un séjour simple, chaleureux et reposant. Installées dans un environnement calme et verdoyant, nos tentes sont pensées pour vous faire vivre un moment hors du temps, loin du stress et du rythme quotidien.
-                        Que vous voyagiez en couple, en famille ou entre amis, vous apprécierez l’équilibre parfait entre le charme du camping traditionnel et la tranquillité d’un hébergement bien équipé. Chaque tente dispose d’un espace spacieux, d’un couchage confortable et est située à proximité de toutes les commodités du camping. Réveillez-vous avec le chant des oiseaux, respirez l’air frais du matin et laissez-vous envelopper par la douceur du vent dans les arbres.
-                        Au fil de la journée, profitez des sentiers environnants, détendez-vous à l’ombre ou partagez des moments conviviaux autour d’un repas en plein air. Le soir venu, laissez-vous bercer par la sérénité des lieux et admirez le ciel étoilé pour une parenthèse apaisante et mémorable. Nos tentes de camping sont l’occasion parfaite de se reconnecter à la nature, de vivre des instants simples mais précieux, et de savourer chaque moment d’une véritable escapade en plein air.
+                        Découvrez le confort et l’élégance de nos appartements, pensés pour vous offrir un séjour pratique, chaleureux et reposant au cœur de notre camping. Chaque appartement est aménagé avec soin : chambres confortables, salon lumineux, cuisine équipée et espace repas, le tout dans un cadre fonctionnel et convivial. Profitez d’un espace privatif pour vous détendre, lire un livre, partager un repas ou simplement contempler la nature environnante depuis votre terrasse ou balcon.
+                        Idéal pour les familles, les couples ou les petits groupes d’amis, nos appartements allient intimité et confort moderne, vous permettant de profiter pleinement de votre séjour tout en restant proches des activités et des installations du camping. Que vous passiez quelques nuits ou une semaine entière, chaque instant devient une invitation à la détente et à la sérénité.
+                        Installez-vous, respirez l’air frais, laissez-vous porter par l’ambiance paisible du camping et savourez chaque moment. Nos appartements vous offrent tout le nécessaire pour un séjour simple et agréable, alliant confort et proximité avec la nature. Entre balades, moments de repos et instants partagés, votre séjour dans nos appartements sera synonyme de bien-être, de convivialité et de souvenirs inoubliables.
                     </p>
 
                     <button className="btn-reserver">Réserver</button>
