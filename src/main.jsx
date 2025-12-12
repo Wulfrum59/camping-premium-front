@@ -8,6 +8,8 @@ import AppartementReservation from './pages/hebergementappartement.jsx'
 import MaisonReservation from './pages/hebergementmaison.jsx'
 import MobilhomeReservation from './pages/hebergementmobilhome.jsx'
 import App from './App.jsx'
+import Payment from './pages/payment.jsx'
+import DashboardPremium from './pages/dashboardPremium.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
@@ -17,7 +19,9 @@ export function Main() {
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/dashboard" element={<DashboardPremium />} />
         <Route path="/*" element={<App />} />
+        <Route path="/payment" element={<Payment />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/tente" element={<TenteReservation />} />
         <Route path="/mobilhome" element={<MobilhomeReservation />} />
