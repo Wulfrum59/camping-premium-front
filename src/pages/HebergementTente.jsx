@@ -5,6 +5,8 @@ import tente2 from "../assets/hebergement/tente2.jpg";
 import tente3 from "../assets/hebergement/tente3.jpg";
 import tente4 from "../assets/hebergement/tente4.jpg";
 import "../styles/tente.css"
+
+
 function TenteReservation() {
     return (
         <>
