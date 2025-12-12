@@ -49,13 +49,14 @@
 
 .img3 {
   width: 28vw;
-  height: 79vh;
+  height: 80vh;
 }
 
 .img3 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 8px;
 }
 
 img:hover {
@@ -80,6 +81,7 @@ p {
   width: 16vw;
   align-self: center;
   background-color: #2E8B57 !important;
+  color: white;
   padding: 10px 15px;
   border-radius: 10px;
   border: none;
@@ -158,7 +160,7 @@ p {
   .img3 {
     width: 70%;
     height: 70vh;
-    /* ajuster pour que ça corresponde à img2 total */
+    border-radius: 8px;
   }
 
   .img3 img {
@@ -166,7 +168,6 @@ p {
     height: 100%;
     object-fit: cover;
     object-position: center;
-    border-radius: 8px;
   }
 
   /* Partie droite */
