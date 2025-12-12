@@ -1,8 +1,6 @@
-import React, { useState } from "react";
-import axios from "axios";
 import "../styles/login.css";
 import NavBar from "../components/NavBar";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 
 function Login() {
     const [email, setEmail] = useState("");
