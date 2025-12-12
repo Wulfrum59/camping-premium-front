@@ -80,6 +80,9 @@ p {
   width: 16vw;
   align-self: center;
   background-color: #2E8B57 !important;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
 }
 
 .btn-reserver:hover {
