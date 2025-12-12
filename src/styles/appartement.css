@@ -1,0 +1,221 @@
+.logement-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+}
+
+.logement-gauche {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  gap: 15px;
+}
+
+.img1 {
+  height: 80vh;
+}
+
+.img1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease, opacity 0.5s ease;
+}
+
+.group2-3 {
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+}
+
+.img2 {
+  width: 30vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.img2 img {
+  width: 100%;
+  height: 50%;
+  /* 2 images = 50% + 50% */
+  object-fit: fill;
+  border-radius: 8px;
+}
+
+.img3 {
+  width: 28vw;
+  height: 79vh;
+}
+
+.img3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+.logement-droite {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h2 {
+  align-self: center;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.btn-reserver {
+  width: 16vw;
+  align-self: center;
+  background-color: #2E8B57 !important;
+}
+
+.btn-reserver:hover {
+  background-color: #87CEEB !important;
+}
+
+/* ======= TABLETTE (max-width: 900px) ======= */
+@media (max-width: 900px) {
+
+  .logement-container {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  /* Partie gauche */
+  .logement-gauche {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-self: center;
+    align-items: center;
+  }
+
+  /* Image principale */
+  .img1 {
+    width: 70%;
+    height: 50vh;
+    /* suffisant pour voir l’image correctement */
+  }
+
+  .img1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+  }
+
+  /* Groupe 2-3 */
+  .group2-3 {
+    display: flex;
+    flex-direction: column;
+    /* empile sur tablette */
+    gap: 3rem;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+  }
+
+  /* Colonne img2 avec 2 images */
+  .img2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+    /* hauteur automatique */
+  }
+
+  .img2 img {
+    width: 100%;
+    height: 40vh;
+    /* même hauteur pour les 2 images */
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+  }
+
+  /* Colonne img3 */
+  .img3 {
+    width: 70%;
+    height: 70vh;
+    /* ajuster pour que ça corresponde à img2 total */
+  }
+
+  .img3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+  }
+
+  /* Partie droite */
+  .logement-droite {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .logement-droite h2 {
+    font-size: 1.5rem;
+  }
+
+  .logement-droite p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .btn-reserver {
+    width: 60%;
+    max-width: 250px;
+  }
+}
+
+/* ======= MOBILE (max-width: 600px) ======= */
+@media (max-width: 600px) {
+
+  .img1 {
+    height: 30vh;
+  }
+
+  .img2 img {
+    height: 35vh;
+    /* légèrement plus petite que img3 */
+  }
+
+  .img3 {
+    height: 70vh;
+  }
+
+  .logement-droite h2 {
+    font-size: 1.4rem;
+  }
+
+  .logement-droite p {
+    font-size: 0.9rem;
+  }
+
+  .btn-reserver {
+    width: 80%;
+  }
+}
