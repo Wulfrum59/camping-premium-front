@@ -5,6 +5,14 @@
   width: 100%;
   padding: 20px;
 }
+.reservation-container {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
 
 .logement-gauche {
   display: flex;
@@ -171,23 +179,29 @@ p {
   }
 
   /* Partie droite */
-  .logement-droite {
-    width: 95%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 15px;
-  }
+.logement-droite {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  height: auto;        /* important */
+  overflow: visible;   /* important */
+}
 
   .logement-droite h2 {
     font-size: 1.5rem;
   }
 
   .logement-droite p {
-    font-size: 1rem;
-    line-height: 1.5;
-  }
+  font-size: 1.3rem;
+  white-space: normal;       /* autorise les retours à la ligne */
+  overflow: visible;         /* ne masque pas le texte */
+  text-overflow: clip;       /* retire le ... */
+  line-height: 1.5;
+}
+
 
   .btn-reserver {
     width: 60%;
@@ -222,4 +236,56 @@ p {
   .btn-reserver {
     width: 80%;
   }
+}
+.reservation-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.reservation-form h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.reservation-form input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.reservation-form button.btn-reserver {
+  margin-top: 10px;
+  width: 100%;
+  background-color: #2E8B57;
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.reservation-form button.btn-reserver:hover {
+  background-color: #87CEEB;
+}
+
+.reservation-success {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.reservation-error {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
 }
