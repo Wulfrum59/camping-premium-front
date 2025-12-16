@@ -26,15 +26,7 @@ function Navbar() {
             <a className="nav-link nav-btn" onClick={() => (window.location.href = "/")}>
               Accueil
             </a>
-          </li>
-          <li className="nav-item">
-            <a
-              className="nav-link nav-btn"
-              onClick={() => (window.location.href = "/hebergements")}
-            >
-              Hébergements
-            </a>
-          </li>
+          </li>   
           <li className="nav-item">
             <a
               className="nav-link nav-btn"
