@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/NavBar';
+import Chatbot from './components/chatbot.jsx';
 
 function App() {
   const [hebergements, setHebergements] = useState([]);
@@ -196,6 +197,10 @@ function App() {
             </div>
           </div>
         </div>
+       <div className="chatbot-floating">
+  <Chatbot />
+</div>
+
       </footer>
 
 
